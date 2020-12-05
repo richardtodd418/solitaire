@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 import { DataTable } from "@shopify/polaris";
 
-import { capitalize } from "../../helpers/helpers";
+import { capitalize } from "../helpers/helpers";
 
 const BonusTable = (props) => {
   const { data, sort } = props;

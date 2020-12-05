@@ -3,8 +3,8 @@ import { AppProvider, Page, Card, Layout } from "@shopify/polaris";
 import PointsTable from "./components/PointsTable";
 import BonusTable from "./components/BonusTable";
 
-import { userData, bonusData, points } from "../../data/data";
-import { timeInSeconds } from "../../helpers/helpers";
+import { userData, bonusData, points } from "./data/data";
+import { timeInSeconds } from "./helpers/helpers";
 
 const App = () => {
   const sortTable = (rows, index, direction, time = false) => {

@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 import { DataTable } from "@shopify/polaris";
 
-import { timeInSeconds, timeStringFromSeconds } from "../../helpers/helpers";
+import { timeInSeconds, timeStringFromSeconds } from "../helpers/helpers";
 
 const PointsTable = (props) => {
   const { data, points, sort } = props;
