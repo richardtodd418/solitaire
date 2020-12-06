@@ -40,9 +40,10 @@ const PointsTable = (props) => {
       const totalPoints = points + bonusPoints;
       const row = [
         name,
-        positionsArray[1],
-        positionsArray[2],
-        positionsArray[3],
+        positionsArray[1] == null ? 0 : positionsArray[1],
+        positionsArray[2] == null ? 0 : positionsArray[2],
+        positionsArray[3] == null ? 0 : positionsArray[3],
+        positionsArray[4] == null ? 0 : positionsArray[4],
         totalTime,
         // points,
         totalPoints
@@ -73,9 +74,9 @@ const PointsTable = (props) => {
         "numeric",
         "numeric"
       ]}
-      headings={["Name", "1", "2", "3", "Time", "Total"]}
+      headings={["Name", "1", "2", "3", "4", "Time", "Total"]}
       rows={rows}
-      sortable={[false, true, true, true, true, true]}
+      sortable={[false, true, true, true, true, true, true]}
       defaultSortDirection="descending"
       initialSortColumnIndex={6}
       onSort={handleSort}
