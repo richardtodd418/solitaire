@@ -44,20 +44,20 @@ const PointsTable = (props) => {
         positionsArray[2] == null ? 0 : positionsArray[2],
         positionsArray[3] == null ? 0 : positionsArray[3],
         positionsArray[4] == null ? 0 : positionsArray[4],
-        totalTime,
         // points,
-        totalPoints
+        totalPoints,
+        totalTime,
       ];
       return row;
     });
-    return rows.sort((a, b) => b[6] - a[6]);
+    return rows.sort((a, b) => b[5] - a[5]);
   };
 
   const rows = sortedRows ? sortedRows : generateRows(data);
 
   const handleSort = useCallback(
     (index, direction) => {
-      const time = index === 5 ? true : false;
+      const time = index === 6 ? true : false;
       return setSortedRows(sort(rows, index, direction, time));
     },
     [rows, sort]
@@ -74,13 +74,13 @@ const PointsTable = (props) => {
         "numeric",
         "numeric"
       ]}
-      headings={["Name", "1", "2", "3", "4", "Time", "Total"]}
+      headings={["Name", "1", "2", "3", "4", "Total", "Time"]}
       rows={rows}
       sortable={[false, true, true, true, true, true, true]}
       defaultSortDirection="descending"
-      initialSortColumnIndex={6}
+      initialSortColumnIndex={5}
       onSort={handleSort}
-      hideScrollIndicator
+      // hideScrollIndicator
     />
   );
 };
