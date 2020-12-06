@@ -50,14 +50,14 @@ const PointsTable = (props) => {
       ];
       return row;
     });
-    return rows.sort((a, b) => b[5] - a[5]);
+    return rows.sort((a, b) => b[6] - a[6]);
   };
 
   const rows = sortedRows ? sortedRows : generateRows(data);
 
   const handleSort = useCallback(
     (index, direction) => {
-      const time = index === 4 ? true : false;
+      const time = index === 5 ? true : false;
       return setSortedRows(sort(rows, index, direction, time));
     },
     [rows, sort]
