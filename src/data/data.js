@@ -19,6 +19,7 @@ const userData = [
       "00:50:00",
       "00:42:21",
       "00:24:08",
+      "00:04:19",
       
   ],
     positions: [
@@ -39,6 +40,7 @@ const userData = [
       3,
       4,
       2,
+      3,
     ],
     fastestSolves: 3
   },
@@ -62,6 +64,7 @@ const userData = [
       "01:04:26",
       "00:25:47",
       "00:22:09",
+      "00:03:51",
     ],
     positions: [
       1,
@@ -80,7 +83,8 @@ const userData = [
       1,
       4,
       3,
-      1
+      1,
+      2,
     ],
     fastestSolves: 1
   },  
@@ -104,6 +108,7 @@ const userData = [
       "00:46:58",
       "00:19:11",
       "00:26:43",
+      "00:03:17",
     ],
     positions: [
       2, 
@@ -121,6 +126,7 @@ const userData = [
       2,
       1,
       4,
+      1,
     ],
     fastestSolves: 0
   },
@@ -144,6 +150,7 @@ const userData = [
       "00:36:09",
       "00:25:09",
       "00:24:40",
+      "00:04:49",
     ],
     positions: [
       4, 
@@ -163,6 +170,7 @@ const userData = [
       1,
       2,
       3,
+      4,
     ],
     fastestSolves: 1
   },
