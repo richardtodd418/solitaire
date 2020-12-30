@@ -29,6 +29,9 @@ const userData = [
       "00:11:13",
       "00:30:09",
       "00:16:13",
+      "00:38:46",
+      "00:20:07",
+      "00:16:59",
   ],
     positions: [
       3,
@@ -58,6 +61,9 @@ const userData = [
       3,
       2,
       4,
+      4,
+      2,
+      3,
     ],
     fastestSolves: 4
   },
@@ -91,6 +97,9 @@ const userData = [
       "00:08:16",
       "00:29:26",
       "00:12:40",
+      "00:37:57",
+      "00:21:30",
+      "00:16:58",
     ],
     positions: [
       1,
@@ -119,6 +128,9 @@ const userData = [
       4,
       1,
       1,
+      2,
+      3,
+      3,
       2,
     ],
     fastestSolves: 1
@@ -153,6 +165,9 @@ const userData = [
       "00:08:38",
       "00:33:27",
       "00:11:26",
+      "00:31:44",
+      "00:30:06",
+      "00:16:35",
     ],
     positions: [
       2,
@@ -180,8 +195,11 @@ const userData = [
       2,
       4,
       1,
+      1,
+      4,
+      1,
     ],
-    fastestSolves: 1
+    fastestSolves: 0
   },
   {
     name: "Jeremy",
@@ -213,6 +231,9 @@ const userData = [
       "00:12:33",
       "00:30:14",
       "00:14:37",
+      "00:37:26",
+      "00:12:07",
+      "00:17:52",
     ],
     positions: [
       4,
@@ -242,6 +263,9 @@ const userData = [
       4,
       3,
       3,
+      2,
+      1,
+      4,
     ],
     fastestSolves: 0
   },
@@ -250,7 +274,7 @@ const userData = [
 const bonusData = [
   { spider: ["Julie", "00:00:39"] },
   { klondike: ["Richard", "00:00:11"] },
-  { pyramid: ["Richard/Jason", "00:00:29"] },
+  { pyramid: ["Richard", "00:00:26"] },
   { tripeaks: ["Richard", "00:00:09"] },
   { freecell: ["Richard", "00:00:02"] }
 ];
